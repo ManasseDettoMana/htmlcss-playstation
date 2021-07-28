@@ -18,29 +18,30 @@ header img{
     margin-right: 20px;
 }
 
-header nav{
+/* header nav{
     height: 100px;
     background-color: white;
-}
+} */
 
 .jumbotron{
     background-color: royalblue;
     height: 600px;
 }
-header ul{
+/* header ul{
     height: 100%;
-}
+} */
 
-li{
+/* li{
     list-style-type: none;
 
-}
-header li{
+} */
+/* header li{
     display: inline-block;
-}
-header li img {
+    margin-right: 80px;
+} */
+/* header li img {
     transform: scale(1.2);
-}
+} */
 a{
     text-decoration: none;
 }
@@ -50,8 +51,8 @@ header a{
 }
 header button{
     border: 1px solid white;
-    border-radius: 15px;
-    padding: 5px 10px;
+    border-radius: 20px;
+    padding: 7px 20px;
     background-color:rgb(71, 71, 71);
     color: white;
 }
