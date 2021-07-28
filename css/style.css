@@ -18,30 +18,23 @@ header img{
     margin-right: 20px;
 }
 
-/* header nav{
-    height: 100px;
-    background-color: white;
-} */
 
 .jumbotron{
     background-color: royalblue;
     height: 600px;
 }
-/* header ul{
-    height: 100%;
-} */
 
 /* li{
     list-style-type: none;
 
 } */
-/* header li{
-    display: inline-block;
-    margin-right: 80px;
-} */
-/* header li img {
+ header li{
+    margin-right: 10%;
+    font-size: 18px
+}
+header li img {
     transform: scale(1.2);
-} */
+}
 a{
     text-decoration: none;
 }
@@ -56,3 +49,14 @@ header button{
     background-color:rgb(71, 71, 71);
     color: white;
 }
+header i{
+    transform: scale(1.5);
+    vertical-align: bottom;
+}
+#ms__header_scnd_ul{
+    margin-right: 100px;
+}
+#ms__header_scnd_ul{
+    margin-left: 10%;
+}
+
