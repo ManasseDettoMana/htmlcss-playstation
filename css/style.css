@@ -24,6 +24,7 @@ header img{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/jumbo-bg.png);
+    color: white;
 }
 
 /* li{
@@ -55,10 +56,22 @@ header i{
     transform: scale(1.5);
     vertical-align: bottom;
 }
-#ms__header_scnd_ul{
-    margin-right: 100px;
+.jumbotron img{
+    width: 250px;
 }
-#ms__header_scnd_ul{
-    margin-left: 10%;
+#jumbotron_container{
+    height: 100%;
+}
+#jumbotron_container button{
+    background-color: orange ;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 7px 20px;
+    width: 200px;
 }
 
+.ms__container{
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
