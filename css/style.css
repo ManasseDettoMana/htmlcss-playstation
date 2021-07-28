@@ -20,8 +20,10 @@ header img{
 
 
 .jumbotron{
-    background-color: royalblue;
-    height: 600px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/jumbo-bg.png);
 }
 
 /* li{
