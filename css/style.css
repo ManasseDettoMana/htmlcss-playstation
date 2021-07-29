@@ -92,5 +92,5 @@ header i{
     border-radius: 15px;
 }
 .colored_border:hover{
-    border-color: blue;
+    border-color: rgb(0, 98, 255);
 }
