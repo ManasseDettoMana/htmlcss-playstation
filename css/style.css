@@ -152,7 +152,7 @@ button{
 #nuove_uscite{
     background-color: rgb(36, 36, 36);
     color: white;
-    height: 750px;
+    /* height: 750px; */
 }
 
 .thumb__ img,
@@ -166,8 +166,13 @@ button{
     width: 100%; 
 }  
 
-#explore_title span{
+#explore_title span,
+.explore__ span{
     color: grey;
     font-size: 1.5em;
     font-weight: 500;
+}
+
+.explore__{
+    margin-top: 100px;
 }
