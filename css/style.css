@@ -175,3 +175,23 @@ button{
 .explore__{
     margin-top: 100px;
 }
+
+#plus_section{
+    background-color: rgb(190, 190, 190);
+}
+
+#plus_section button{
+    border: 1px solid rgb(206, 206, 206);
+    background-color: rgb(206, 206, 206);
+}
+
+.plus_img{
+    width: 50% ;
+    /* height: 50%; */
+
+}
+
+.plus_img img{
+    width: 100%;
+}
+
