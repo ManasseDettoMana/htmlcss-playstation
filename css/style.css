@@ -114,10 +114,6 @@ button{
     font-size: 20px;
 }
 
-/* #img_ps5{
-    background-image: url(../img/playstation-5-thumb.png);
-    height: 100%;
-} */
 
 .blue_button{
     background-color: rgb(0, 98, 255);
@@ -166,7 +162,8 @@ button{
 }  
 
 #explore_title span,
-.explore__ p{
+.explore__ p,
+#sconti_section p{
     color: grey;
     font-size: 1.4em;
     font-weight: 500;
@@ -187,17 +184,40 @@ button{
 
 .plus_img{
     width: 50% ;
-    /* height: 50%; */
-
 }
-
-.plus_img img{
+.plus_img img,
+.ps5_img img,
+#sconti_banner div img{
     width: 100%;
 }
 
+#playstation_now{
+    background-color: rgb(0, 0, 59);
+}
+
+#playstation_now p{
+    color: white;
+}
+#playstation_now button{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+
 @media screen and (max-width: 576px){
-    #plus_featured_img{
+    #plus_section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #plus_featured_img,
+    #ps_now_banner{
         display: none;
+    }
+
+    #sconti_banner div{
+        margin-bottom: 50px;
     }
 }
 
