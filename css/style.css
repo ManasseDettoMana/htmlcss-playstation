@@ -204,6 +204,15 @@ button{
     color: black;
 }
 
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 15px;
+}
 
 @media screen and (max-width: 576px){
     #plus_section{
